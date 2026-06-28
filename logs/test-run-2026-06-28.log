@@ -1,0 +1,882 @@
+[2026-06-28 20:14:51] INFO: === Test Suite Starting ===
+[2026-06-28 20:14:53] INFO: Browser launched (headless=false)
+[2026-06-28 20:14:53] INFO: --- Starting scenario: "Create event, book it, and verify seat count reduces by 1" ---
+[2026-06-28 20:14:54] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:14:54] INFO: Navigating to login page
+[2026-06-28 20:14:56] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:14:56] INFO: Clicking Sign In button
+[2026-06-28 20:14:59] INFO: Login submitted
+[2026-06-28 20:14:59] ERROR: FAILED: "Create event, book it, and verify seat count reduces by 1"
+[2026-06-28 20:15:00] INFO: Screenshot saved: screenshots\FAILED_create_event__book_it__and_verify_seat_count_reduces_by_1-2026-06-28T14-44-59-940Z.png
+[2026-06-28 20:15:00] INFO: Screenshot attached for: "Create event, book it, and verify seat count reduces by 1"
+[2026-06-28 20:15:01] INFO: --- Finished scenario: "Create event, book it, and verify seat count reduces by 1" (FAILED) ---
+[2026-06-28 20:15:02] INFO: Browser closed
+[2026-06-28 20:15:02] INFO: === Test Suite Finished ===
+[2026-06-28 20:15:19] INFO: === Test Suite Starting ===
+[2026-06-28 20:15:19] INFO: Browser launched (headless=false)
+[2026-06-28 20:15:19] INFO: --- Starting scenario: "Create event, book it, and verify seat count reduces by 1" ---
+[2026-06-28 20:15:20] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:15:20] INFO: Navigating to login page
+[2026-06-28 20:15:22] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:15:22] INFO: Clicking Sign In button
+[2026-06-28 20:15:25] INFO: Login submitted
+[2026-06-28 20:15:25] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:15:25] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:15:25] INFO: Navigating to admin events page
+[2026-06-28 20:15:26] INFO: Creating event: Test Event 1782657926728
+[2026-06-28 20:15:26] INFO: Clicking Add Event button to open form
+[2026-06-28 20:15:26] INFO: Filling event title: Test Event 1782657926728
+[2026-06-28 20:15:27] INFO: Setting event date: 2026-07-28T10:00
+[2026-06-28 20:15:27] INFO: Submitting new event form
+[2026-06-28 20:15:27] INFO: Event created toast confirmed
+[2026-06-28 20:15:27] INFO: Event created toast confirmed
+[2026-06-28 20:15:27] INFO: Navigating to events page
+[2026-06-28 20:15:28] INFO: First event card is visible
+[2026-06-28 20:15:28] INFO: Event card visible: "Test Event 1782657926728"
+[2026-06-28 20:15:28] INFO: Seat count read: 50 (from "50 seats available")
+[2026-06-28 20:15:28] INFO: Seats before booking: 50
+[2026-06-28 20:15:28] INFO: Clicking Book Now on matched event card
+[2026-06-28 20:15:28] INFO: Ticket count is 1
+[2026-06-28 20:15:29] INFO: Clicking Confirm Booking button
+[2026-06-28 20:15:29] INFO: Booking reference: T-YNUYMO
+[2026-06-28 20:15:29] INFO: Stored booking ref: T-YNUYMO
+[2026-06-28 20:15:29] INFO: Clicking View My Bookings
+[2026-06-28 20:15:29] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:15:29] INFO: First booking card is visible
+[2026-06-28 20:15:29] INFO: Booking card found for ref: T-YNUYMO
+[2026-06-28 20:15:29] INFO: Card contains event title: Test Event 1782657926728
+[2026-06-28 20:15:29] INFO: Navigating to events page
+[2026-06-28 20:15:30] INFO: First event card is visible
+[2026-06-28 20:15:30] INFO: Event card visible: "Test Event 1782657926728"
+[2026-06-28 20:15:30] INFO: Seat count read: 49 (from "49 seats available")
+[2026-06-28 20:15:30] INFO: Seats after booking: 49
+[2026-06-28 20:15:30] INFO: --- Finished scenario: "Create event, book it, and verify seat count reduces by 1" (PASSED) ---
+[2026-06-28 20:15:31] INFO: Browser closed
+[2026-06-28 20:15:31] INFO: === Test Suite Finished ===
+[2026-06-28 20:15:51] INFO: === Test Suite Starting ===
+[2026-06-28 20:15:52] INFO: Browser launched (headless=false)
+[2026-06-28 20:15:52] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:15:53] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:15:53] INFO: Navigating to login page
+[2026-06-28 20:15:55] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:15:56] INFO: Clicking Sign In button
+[2026-06-28 20:15:59] INFO: Login submitted
+[2026-06-28 20:15:59] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:15:59] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:15:59] INFO: Navigating to events page
+[2026-06-28 20:16:00] INFO: First event card is visible
+[2026-06-28 20:16:00] INFO: Clicking Confirm Booking button
+[2026-06-28 20:16:00] INFO: Clicking View My Bookings
+[2026-06-28 20:16:01] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:16:01] INFO: First booking card is visible
+[2026-06-28 20:16:01] INFO: Clicking View Details (index 0)
+[2026-06-28 20:16:01] INFO: Booking Information section is visible
+[2026-06-28 20:16:31] ERROR: FAILED: "Single ticket booking is eligible for refund"
+[2026-06-28 20:16:32] INFO: Screenshot saved: screenshots\FAILED_single_ticket_booking_is_eligible_for_refund-2026-06-28T14-46-31-931Z.png
+[2026-06-28 20:16:32] INFO: Screenshot attached for: "Single ticket booking is eligible for refund"
+[2026-06-28 20:16:33] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (FAILED) ---
+[2026-06-28 20:16:33] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:16:34] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:16:34] INFO: Navigating to login page
+[2026-06-28 20:16:36] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:16:36] INFO: Clicking Sign In button
+[2026-06-28 20:16:38] INFO: Login submitted
+[2026-06-28 20:16:38] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:16:38] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:16:38] INFO: Navigating to events page
+[2026-06-28 20:16:39] INFO: First event card is visible
+[2026-06-28 20:16:40] INFO: Clicked increment, pass 1
+[2026-06-28 20:17:09] ERROR: FAILED: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:17:10] INFO: Screenshot saved: screenshots\FAILED_group_ticket_booking__3_tickets__is_not_eligible_for_refund-2026-06-28T14-47-09-827Z.png
+[2026-06-28 20:17:10] INFO: Screenshot attached for: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:17:11] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (FAILED) ---
+[2026-06-28 20:17:11] INFO: Browser closed
+[2026-06-28 20:17:11] INFO: === Test Suite Finished ===
+[2026-06-28 20:27:56] INFO: === Test Suite Starting ===
+[2026-06-28 20:27:58] INFO: Browser launched (headless=false)
+[2026-06-28 20:27:58] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:27:59] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:27:59] INFO: Navigating to login page
+[2026-06-28 20:28:01] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:28:01] INFO: Clicking Sign In button
+[2026-06-28 20:28:04] INFO: Login submitted
+[2026-06-28 20:28:04] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:28:04] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:28:04] INFO: Navigating to events page
+[2026-06-28 20:28:05] INFO: First event card is visible
+[2026-06-28 20:28:05] INFO: Clicking Confirm Booking button
+[2026-06-28 20:28:05] INFO: Clicking View My Bookings
+[2026-06-28 20:28:05] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:28:06] INFO: First booking card is visible
+[2026-06-28 20:28:06] INFO: Clicking View Details (index 0)
+[2026-06-28 20:28:06] INFO: Booking Information section is visible
+[2026-06-28 20:28:06] INFO: Booking ref on detail page: D-LU3689
+[2026-06-28 20:28:06] INFO: Event title on detail page: Dilli Diwali Mela
+[2026-06-28 20:28:06] INFO: Booking ref first char "D" matches event title first char "D"
+[2026-06-28 20:28:06] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 20:28:06] INFO: Refund spinner is visible
+[2026-06-28 20:28:11] INFO: Refund spinner disappeared
+[2026-06-28 20:28:11] INFO: Refund result is visible
+[2026-06-28 20:28:11] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 20:28:11] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 20:28:11] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 20:28:11] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:28:11] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:28:11] INFO: Navigating to login page
+[2026-06-28 20:28:13] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:28:13] INFO: Clicking Sign In button
+[2026-06-28 20:28:16] INFO: Login submitted
+[2026-06-28 20:28:16] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:28:16] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:28:16] INFO: Navigating to events page
+[2026-06-28 20:28:17] INFO: First event card is visible
+[2026-06-28 20:28:47] ERROR: FAILED: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:28:47] INFO: Screenshot saved: screenshots\FAILED_group_ticket_booking__3_tickets__is_not_eligible_for_refund-2026-06-28T14-58-47-380Z.png
+[2026-06-28 20:28:47] INFO: Screenshot attached for: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:28:49] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (FAILED) ---
+[2026-06-28 20:28:50] INFO: Browser closed
+[2026-06-28 20:28:50] INFO: === Test Suite Finished ===
+[2026-06-28 20:30:20] INFO: === Test Suite Starting ===
+[2026-06-28 20:30:21] INFO: Browser launched (headless=false)
+[2026-06-28 20:30:21] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:30:21] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:30:21] INFO: Navigating to login page
+[2026-06-28 20:30:23] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:30:24] INFO: Clicking Sign In button
+[2026-06-28 20:30:26] INFO: Login submitted
+[2026-06-28 20:30:26] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:30:26] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:30:26] INFO: Navigating to events page
+[2026-06-28 20:30:27] INFO: First event card is visible
+[2026-06-28 20:30:57] ERROR: FAILED: "Single ticket booking is eligible for refund"
+[2026-06-28 20:30:58] INFO: Screenshot saved: screenshots\FAILED_single_ticket_booking_is_eligible_for_refund-2026-06-28T15-00-57-670Z.png
+[2026-06-28 20:30:58] INFO: Screenshot attached for: "Single ticket booking is eligible for refund"
+[2026-06-28 20:30:58] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (FAILED) ---
+[2026-06-28 20:30:58] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:30:58] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:30:58] INFO: Navigating to login page
+[2026-06-28 20:31:01] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:31:01] INFO: Clicking Sign In button
+[2026-06-28 20:31:04] INFO: Login submitted
+[2026-06-28 20:31:04] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:31:04] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:31:04] INFO: Navigating to events page
+[2026-06-28 20:31:05] INFO: First event card is visible
+[2026-06-28 20:31:35] ERROR: FAILED: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:31:35] INFO: Screenshot saved: screenshots\FAILED_group_ticket_booking__3_tickets__is_not_eligible_for_refund-2026-06-28T15-01-35-019Z.png
+[2026-06-28 20:31:35] INFO: Screenshot attached for: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:31:36] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (FAILED) ---
+[2026-06-28 20:31:37] INFO: Browser closed
+[2026-06-28 20:31:37] INFO: === Test Suite Finished ===
+[2026-06-28 20:32:55] INFO: === Test Suite Starting ===
+[2026-06-28 20:32:56] INFO: Browser launched (headless=false)
+[2026-06-28 20:32:56] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:32:57] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:32:57] INFO: Navigating to login page
+[2026-06-28 20:32:59] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:32:59] INFO: Clicking Sign In button
+[2026-06-28 20:33:01] INFO: Login submitted
+[2026-06-28 20:33:01] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:33:01] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:33:01] INFO: Navigating to events page
+[2026-06-28 20:33:02] INFO: First event card is visible
+[2026-06-28 20:33:03] INFO: Clicking Confirm Booking button
+[2026-06-28 20:33:03] INFO: Clicking View My Bookings
+[2026-06-28 20:33:03] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:33:03] INFO: First booking card is visible
+[2026-06-28 20:33:03] INFO: Clicking View Details (index 0)
+[2026-06-28 20:33:04] INFO: Booking Information section is visible
+[2026-06-28 20:33:04] INFO: Booking ref on detail page: H-0B86BJ
+[2026-06-28 20:33:04] INFO: Event title on detail page: Hollywood Monsoon Night — Los Angeles
+[2026-06-28 20:33:04] INFO: Booking ref first char "H" matches event title first char "H"
+[2026-06-28 20:33:04] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 20:33:04] INFO: Refund spinner is visible
+[2026-06-28 20:33:08] INFO: Refund spinner disappeared
+[2026-06-28 20:33:08] INFO: Refund result is visible
+[2026-06-28 20:33:08] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 20:33:08] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 20:33:08] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 20:33:08] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:33:09] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:33:09] INFO: Navigating to login page
+[2026-06-28 20:33:11] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:33:11] INFO: Clicking Sign In button
+[2026-06-28 20:33:15] INFO: Login submitted
+[2026-06-28 20:33:15] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:33:15] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:33:15] INFO: Navigating to events page
+[2026-06-28 20:33:16] INFO: First event card is visible
+[2026-06-28 20:33:46] ERROR: FAILED: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:33:47] INFO: Screenshot saved: screenshots\FAILED_group_ticket_booking__3_tickets__is_not_eligible_for_refund-2026-06-28T15-03-46-908Z.png
+[2026-06-28 20:33:47] INFO: Screenshot attached for: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:33:48] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (FAILED) ---
+[2026-06-28 20:33:48] INFO: Browser closed
+[2026-06-28 20:33:48] INFO: === Test Suite Finished ===
+[2026-06-28 20:38:08] INFO: === Test Suite Starting ===
+[2026-06-28 20:38:09] INFO: Browser launched (headless=false)
+[2026-06-28 20:38:09] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:38:10] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:38:10] INFO: Navigating to login page
+[2026-06-28 20:38:12] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:38:12] INFO: Clicking Sign In button
+[2026-06-28 20:38:15] INFO: Login submitted
+[2026-06-28 20:38:15] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:38:15] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:38:15] INFO: Navigating to events page
+[2026-06-28 20:38:16] INFO: First event card is visible
+[2026-06-28 20:38:16] INFO: Clicking Confirm Booking button
+[2026-06-28 20:38:17] INFO: Clicking View My Bookings
+[2026-06-28 20:38:17] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:38:17] INFO: First booking card is visible
+[2026-06-28 20:38:17] INFO: Clicking View Details (index 0)
+[2026-06-28 20:38:17] INFO: Booking Information section is visible
+[2026-06-28 20:38:17] INFO: Booking ref on detail page: D-F1CLGC
+[2026-06-28 20:38:17] INFO: Event title on detail page: Dilli Diwali Mela
+[2026-06-28 20:38:17] INFO: Booking ref first char "D" matches event title first char "D"
+[2026-06-28 20:38:17] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 20:38:17] INFO: Refund spinner is visible
+[2026-06-28 20:38:22] INFO: Refund spinner disappeared
+[2026-06-28 20:38:22] INFO: Refund result is visible
+[2026-06-28 20:38:22] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 20:38:22] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 20:38:22] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 20:38:22] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:38:23] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:38:23] INFO: Navigating to login page
+[2026-06-28 20:38:25] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:38:25] INFO: Clicking Sign In button
+[2026-06-28 20:38:27] INFO: Login submitted
+[2026-06-28 20:38:27] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:38:27] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:38:27] INFO: Navigating to events page
+[2026-06-28 20:38:28] INFO: First event card is visible
+[2026-06-28 20:38:28] INFO: Clicked increment, pass 1
+[2026-06-28 20:38:29] INFO: Clicked increment, pass 2
+[2026-06-28 20:38:29] INFO: Increased ticket count by 2
+[2026-06-28 20:38:29] INFO: Clicking Confirm Booking button
+[2026-06-28 20:38:29] INFO: Clicking View My Bookings
+[2026-06-28 20:38:29] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:38:29] INFO: First booking card is visible
+[2026-06-28 20:38:29] INFO: Clicking View Details (index 0)
+[2026-06-28 20:38:30] INFO: Booking Information section is visible
+[2026-06-28 20:38:30] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 20:38:30] INFO: Refund spinner is visible
+[2026-06-28 20:38:34] INFO: Refund spinner disappeared
+[2026-06-28 20:38:34] INFO: Refund result is visible
+[2026-06-28 20:38:34] INFO: Refund result contains: "Not eligible for refund"
+[2026-06-28 20:38:34] INFO: Refund result contains: "Group bookings (3 tickets) are non-refundable"
+[2026-06-28 20:38:34] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (PASSED) ---
+[2026-06-28 20:38:35] INFO: Browser closed
+[2026-06-28 20:38:35] INFO: === Test Suite Finished ===
+[2026-06-28 20:38:51] INFO: === Test Suite Starting ===
+[2026-06-28 20:38:52] INFO: Browser launched (headless=false)
+[2026-06-28 20:38:52] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 20:38:53] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 20:38:54] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:38:54] INFO: Navigating to login page
+[2026-06-28 20:38:57] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:38:57] INFO: Clicking Sign In button
+[2026-06-28 20:39:00] INFO: Login submitted
+[2026-06-28 20:39:00] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:39:00] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:39:00] INFO: Navigating to events page
+[2026-06-28 20:39:01] INFO: First event card is visible
+[2026-06-28 20:39:01] INFO: Event card count verified: 6
+[2026-06-28 20:39:01] INFO: Sandbox banner is visible
+[2026-06-28 20:39:01] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 20:39:02] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 20:39:02] INFO: Browser closed
+[2026-06-28 20:39:02] INFO: === Test Suite Finished ===
+[2026-06-28 20:39:13] INFO: === Test Suite Starting ===
+[2026-06-28 20:39:14] INFO: Browser launched (headless=false)
+[2026-06-28 20:39:14] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 20:39:15] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 20:39:16] ERROR: FAILED: "Gmail user cannot view Yahoo user's booking"
+[2026-06-28 20:39:16] INFO: Screenshot saved: screenshots\FAILED_gmail_user_cannot_view_yahoo_user_s_booking-2026-06-28T15-09-16-758Z.png
+[2026-06-28 20:39:16] INFO: Screenshot attached for: "Gmail user cannot view Yahoo user's booking"
+[2026-06-28 20:39:17] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (FAILED) ---
+[2026-06-28 20:39:17] INFO: Browser closed
+[2026-06-28 20:39:17] INFO: === Test Suite Finished ===
+[2026-06-28 20:41:56] INFO: === Test Suite Starting ===
+[2026-06-28 20:41:57] INFO: Browser launched (headless=false)
+[2026-06-28 20:41:57] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 20:41:57] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 20:41:59] INFO: API login successful, token obtained
+[2026-06-28 20:41:59] INFO: First event ID from API: 3
+[2026-06-28 20:41:59] INFO: Creating booking via API for eventId: 3
+[2026-06-28 20:41:59] INFO: Booking created via API, ID: 71781
+[2026-06-28 20:41:59] INFO: Yahoo booking created, ID: 71781
+[2026-06-28 20:41:59] INFO: Navigating to login page
+[2026-06-28 20:42:01] INFO: Filling email: gmailTester02@gmail.com
+[2026-06-28 20:42:01] INFO: Clicking Sign In button
+[2026-06-28 20:42:04] INFO: Login submitted
+[2026-06-28 20:42:04] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:42:04] INFO: Logged in as gmailTester02@gmail.com
+[2026-06-28 20:42:04] INFO: Navigating to Yahoo booking as Gmail user: /bookings/71781
+[2026-06-28 20:42:05] INFO: Page contains expected text: "Access Denied"
+[2026-06-28 20:42:05] INFO: Page contains expected text: "You are not authorized to view this booking"
+[2026-06-28 20:42:05] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (PASSED) ---
+[2026-06-28 20:42:06] INFO: Browser closed
+[2026-06-28 20:42:06] INFO: === Test Suite Finished ===
+[2026-06-28 20:43:17] INFO: === Test Suite Starting ===
+[2026-06-28 20:43:18] INFO: Browser launched (headless=false)
+[2026-06-28 20:43:18] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 20:43:19] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 20:43:19] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:43:19] INFO: Navigating to login page
+[2026-06-28 20:43:21] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:43:21] INFO: Clicking Sign In button
+[2026-06-28 20:43:24] INFO: Login submitted
+[2026-06-28 20:43:24] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:43:24] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:43:24] INFO: Navigating to events page
+[2026-06-28 20:43:25] INFO: First event card is visible
+[2026-06-28 20:43:25] INFO: Event card count verified: 6
+[2026-06-28 20:43:25] INFO: Sandbox banner is visible
+[2026-06-28 20:43:25] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 20:43:25] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 20:43:25] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 20:43:26] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 20:43:27] INFO: API login successful, token obtained
+[2026-06-28 20:43:27] INFO: First event ID from API: 3
+[2026-06-28 20:43:27] INFO: Creating booking via API for eventId: 3
+[2026-06-28 20:43:27] INFO: Booking created via API, ID: 71783
+[2026-06-28 20:43:27] INFO: Yahoo booking created, ID: 71783
+[2026-06-28 20:43:27] INFO: Navigating to login page
+[2026-06-28 20:43:29] INFO: Filling email: gmailTester02@gmail.com
+[2026-06-28 20:43:29] INFO: Clicking Sign In button
+[2026-06-28 20:43:33] INFO: Login submitted
+[2026-06-28 20:43:33] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:43:33] INFO: Logged in as gmailTester02@gmail.com
+[2026-06-28 20:43:33] INFO: Navigating to Yahoo booking as Gmail user: /bookings/71783
+[2026-06-28 20:43:34] INFO: Page contains expected text: "Access Denied"
+[2026-06-28 20:43:34] INFO: Page contains expected text: "You are not authorized to view this booking"
+[2026-06-28 20:43:34] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (PASSED) ---
+[2026-06-28 20:43:34] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 20:43:35] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:43:35] INFO: Navigating to login page
+[2026-06-28 20:43:37] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:43:37] INFO: Clicking Sign In button
+[2026-06-28 20:43:40] INFO: Login submitted
+[2026-06-28 20:43:40] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:43:40] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:43:40] INFO: Navigating to events page
+[2026-06-28 20:43:41] INFO: First event card is visible
+[2026-06-28 20:43:41] INFO: Clicking Confirm Booking button
+[2026-06-28 20:43:41] INFO: Clicking View My Bookings
+[2026-06-28 20:43:41] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:43:41] INFO: First booking card is visible
+[2026-06-28 20:43:41] INFO: Clicking View Details (index 0)
+[2026-06-28 20:43:42] INFO: Booking Information section is visible
+[2026-06-28 20:43:42] INFO: Booking ref on detail page: D-QJCR99
+[2026-06-28 20:43:42] INFO: Event title on detail page: Dilli Diwali Mela
+[2026-06-28 20:43:42] INFO: Booking ref first char "D" matches event title first char "D"
+[2026-06-28 20:43:42] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 20:43:42] INFO: Refund spinner is visible
+[2026-06-28 20:43:46] INFO: Refund spinner disappeared
+[2026-06-28 20:43:46] INFO: Refund result is visible
+[2026-06-28 20:43:46] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 20:43:46] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 20:43:46] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 20:43:46] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 20:43:47] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:43:47] INFO: Navigating to login page
+[2026-06-28 20:43:49] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:43:49] INFO: Clicking Sign In button
+[2026-06-28 20:43:52] INFO: Login submitted
+[2026-06-28 20:43:52] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:43:52] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:43:52] INFO: Navigating to events page
+[2026-06-28 20:43:53] INFO: First event card is visible
+[2026-06-28 20:43:53] INFO: Clicked increment, pass 1
+[2026-06-28 20:44:23] ERROR: FAILED: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:44:24] INFO: Screenshot saved: screenshots\FAILED_group_ticket_booking__3_tickets__is_not_eligible_for_refund-2026-06-28T15-14-23-842Z.png
+[2026-06-28 20:44:24] INFO: Screenshot attached for: "Group ticket booking (3 tickets) is NOT eligible for refund"
+[2026-06-28 20:44:25] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (FAILED) ---
+[2026-06-28 20:44:25] INFO: --- Starting scenario: "Create event, book it, and verify seat count reduces by 1" ---
+[2026-06-28 20:44:25] INFO: Step: I am logged in to EventHub
+[2026-06-28 20:44:25] INFO: Navigating to login page
+[2026-06-28 20:44:28] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 20:44:28] INFO: Clicking Sign In button
+[2026-06-28 20:44:30] INFO: Login submitted
+[2026-06-28 20:44:30] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 20:44:30] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 20:44:30] INFO: Navigating to admin events page
+[2026-06-28 20:44:31] INFO: Creating event: Test Event 1782659671758
+[2026-06-28 20:44:31] INFO: Clicking Add Event button to open form
+[2026-06-28 20:44:31] INFO: Filling event title: Test Event 1782659671758
+[2026-06-28 20:44:32] INFO: Setting event date: 2026-07-28T10:00
+[2026-06-28 20:44:32] INFO: Submitting new event form
+[2026-06-28 20:44:32] INFO: Event created toast confirmed
+[2026-06-28 20:44:32] INFO: Event created toast confirmed
+[2026-06-28 20:44:32] INFO: Navigating to events page
+[2026-06-28 20:44:33] INFO: First event card is visible
+[2026-06-28 20:44:33] INFO: Event card visible: "Test Event 1782659671758"
+[2026-06-28 20:44:33] INFO: Seat count read: 50 (from "50 seats available")
+[2026-06-28 20:44:33] INFO: Seats before booking: 50
+[2026-06-28 20:44:33] INFO: Clicking Book Now on matched event card
+[2026-06-28 20:44:33] INFO: Ticket count is 1
+[2026-06-28 20:44:33] INFO: Clicking Confirm Booking button
+[2026-06-28 20:44:34] INFO: Booking reference: T-QTASFW
+[2026-06-28 20:44:34] INFO: Stored booking ref: T-QTASFW
+[2026-06-28 20:44:34] INFO: Clicking View My Bookings
+[2026-06-28 20:44:34] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 20:44:34] INFO: First booking card is visible
+[2026-06-28 20:44:34] INFO: Booking card found for ref: T-QTASFW
+[2026-06-28 20:44:34] INFO: Card contains event title: Test Event 1782659671758
+[2026-06-28 20:44:34] INFO: Navigating to events page
+[2026-06-28 20:44:35] INFO: First event card is visible
+[2026-06-28 20:44:35] INFO: Event card visible: "Test Event 1782659671758"
+[2026-06-28 20:44:35] INFO: Seat count read: 49 (from "49 seats available")
+[2026-06-28 20:44:35] INFO: Seats after booking: 49
+[2026-06-28 20:44:35] INFO: --- Finished scenario: "Create event, book it, and verify seat count reduces by 1" (PASSED) ---
+[2026-06-28 20:44:35] INFO: Browser closed
+[2026-06-28 20:44:35] INFO: === Test Suite Finished ===
+[2026-06-28 21:03:03] INFO: === Test Suite Starting ===
+[2026-06-28 21:03:04] INFO: Browser launched (headless=false)
+[2026-06-28 21:03:04] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 21:03:05] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:03:05] INFO: Navigating to login page
+[2026-06-28 21:03:07] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:03:07] INFO: Clicking Sign In button
+[2026-06-28 21:03:10] INFO: Login submitted
+[2026-06-28 21:03:10] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:03:10] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:03:10] INFO: Navigating to events page
+[2026-06-28 21:03:11] INFO: First event card is visible
+[2026-06-28 21:03:11] INFO: Card 0: 3 seats available (need 3), clicking Book Now
+[2026-06-28 21:03:12] INFO: Clicked increment, pass 1
+[2026-06-28 21:03:12] INFO: Clicked increment, pass 2
+[2026-06-28 21:03:12] INFO: Increased ticket count by 2
+[2026-06-28 21:03:12] INFO: Clicking Confirm Booking button
+[2026-06-28 21:03:12] INFO: Clicking View My Bookings
+[2026-06-28 21:03:12] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:03:12] INFO: First booking card is visible
+[2026-06-28 21:03:12] INFO: Clicking View Details (index 0)
+[2026-06-28 21:03:13] INFO: Booking Information section is visible
+[2026-06-28 21:03:13] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:03:13] INFO: Refund spinner is visible
+[2026-06-28 21:03:17] INFO: Refund spinner disappeared
+[2026-06-28 21:03:17] INFO: Refund result is visible
+[2026-06-28 21:03:17] INFO: Refund result contains: "Not eligible for refund"
+[2026-06-28 21:03:17] INFO: Refund result contains: "Group bookings (3 tickets) are non-refundable"
+[2026-06-28 21:03:17] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (PASSED) ---
+[2026-06-28 21:03:18] INFO: Browser closed
+[2026-06-28 21:03:18] INFO: === Test Suite Finished ===
+[2026-06-28 21:04:12] INFO: === Test Suite Starting ===
+[2026-06-28 21:04:13] INFO: Browser launched (headless=false)
+[2026-06-28 21:04:13] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:04:14] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:04:14] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:04:14] INFO: Navigating to login page
+[2026-06-28 21:04:17] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:04:17] INFO: Clicking Sign In button
+[2026-06-28 21:04:20] INFO: Login submitted
+[2026-06-28 21:04:20] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:04:20] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:04:20] INFO: Navigating to events page
+[2026-06-28 21:04:21] INFO: First event card is visible
+[2026-06-28 21:04:21] INFO: Event card count verified: 6
+[2026-06-28 21:04:21] INFO: Sandbox banner is visible
+[2026-06-28 21:04:21] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:04:21] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:04:21] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 21:04:22] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 21:04:23] INFO: API login successful, token obtained
+[2026-06-28 21:04:23] INFO: First event ID from API: 3
+[2026-06-28 21:04:23] INFO: Creating booking via API for eventId: 3
+[2026-06-28 21:04:23] INFO: Booking created via API, ID: 71803
+[2026-06-28 21:04:23] INFO: Yahoo booking created, ID: 71803
+[2026-06-28 21:04:23] INFO: Navigating to login page
+[2026-06-28 21:04:25] INFO: Filling email: gmailTester02@gmail.com
+[2026-06-28 21:04:25] INFO: Clicking Sign In button
+[2026-06-28 21:04:28] INFO: Login submitted
+[2026-06-28 21:04:28] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:04:28] INFO: Logged in as gmailTester02@gmail.com
+[2026-06-28 21:04:28] INFO: Navigating to Yahoo booking as Gmail user: /bookings/71803
+[2026-06-28 21:04:30] INFO: Page contains expected text: "Access Denied"
+[2026-06-28 21:04:30] INFO: Page contains expected text: "You are not authorized to view this booking"
+[2026-06-28 21:04:30] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (PASSED) ---
+[2026-06-28 21:04:30] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 21:04:31] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:04:31] INFO: Navigating to login page
+[2026-06-28 21:04:33] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:04:33] INFO: Clicking Sign In button
+[2026-06-28 21:04:36] INFO: Login submitted
+[2026-06-28 21:04:36] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:04:36] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:04:36] INFO: Navigating to events page
+[2026-06-28 21:04:37] INFO: First event card is visible
+[2026-06-28 21:04:37] INFO: Clicking Confirm Booking button
+[2026-06-28 21:04:38] INFO: Clicking View My Bookings
+[2026-06-28 21:04:38] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:04:38] INFO: First booking card is visible
+[2026-06-28 21:04:38] INFO: Clicking View Details (index 0)
+[2026-06-28 21:04:38] INFO: Booking Information section is visible
+[2026-06-28 21:04:38] INFO: Booking ref on detail page: H-EKP85X
+[2026-06-28 21:04:38] INFO: Event title on detail page: Hollywood Monsoon Night — Los Angeles
+[2026-06-28 21:04:38] INFO: Booking ref first char "H" matches event title first char "H"
+[2026-06-28 21:04:38] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:04:38] INFO: Refund spinner is visible
+[2026-06-28 21:04:43] INFO: Refund spinner disappeared
+[2026-06-28 21:04:43] INFO: Refund result is visible
+[2026-06-28 21:04:43] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 21:04:43] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 21:04:43] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 21:04:43] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 21:04:44] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:04:44] INFO: Navigating to login page
+[2026-06-28 21:04:46] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:04:46] INFO: Clicking Sign In button
+[2026-06-28 21:04:48] INFO: Login submitted
+[2026-06-28 21:04:48] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:04:48] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:04:48] INFO: Navigating to events page
+[2026-06-28 21:04:49] INFO: First event card is visible
+[2026-06-28 21:04:49] INFO: Card 0: only 1 seats available, need 3 — skipping
+[2026-06-28 21:04:49] INFO: Card 1: 200 seats available (need 3), clicking Book Now
+[2026-06-28 21:04:50] INFO: Clicked increment, pass 1
+[2026-06-28 21:04:50] INFO: Clicked increment, pass 2
+[2026-06-28 21:04:50] INFO: Increased ticket count by 2
+[2026-06-28 21:04:50] INFO: Clicking Confirm Booking button
+[2026-06-28 21:04:50] INFO: Clicking View My Bookings
+[2026-06-28 21:04:51] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:04:51] INFO: First booking card is visible
+[2026-06-28 21:04:51] INFO: Clicking View Details (index 0)
+[2026-06-28 21:04:51] INFO: Booking Information section is visible
+[2026-06-28 21:04:51] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:04:51] INFO: Refund spinner is visible
+[2026-06-28 21:04:56] INFO: Refund spinner disappeared
+[2026-06-28 21:04:56] INFO: Refund result is visible
+[2026-06-28 21:04:56] INFO: Refund result contains: "Not eligible for refund"
+[2026-06-28 21:04:56] INFO: Refund result contains: "Group bookings (3 tickets) are non-refundable"
+[2026-06-28 21:04:56] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (PASSED) ---
+[2026-06-28 21:04:56] INFO: --- Starting scenario: "Create event, book it, and verify seat count reduces by 1" ---
+[2026-06-28 21:04:56] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:04:56] INFO: Navigating to login page
+[2026-06-28 21:04:59] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:04:59] INFO: Clicking Sign In button
+[2026-06-28 21:05:01] INFO: Login submitted
+[2026-06-28 21:05:01] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:05:01] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:05:01] INFO: Navigating to admin events page
+[2026-06-28 21:05:02] INFO: Creating event: Test Event 1782660902649
+[2026-06-28 21:05:02] INFO: Clicking Add Event button to open form
+[2026-06-28 21:05:02] INFO: Filling event title: Test Event 1782660902649
+[2026-06-28 21:05:02] INFO: Setting event date: 2026-07-28T10:00
+[2026-06-28 21:05:03] INFO: Submitting new event form
+[2026-06-28 21:05:03] INFO: Event created toast confirmed
+[2026-06-28 21:05:03] INFO: Event created toast confirmed
+[2026-06-28 21:05:03] INFO: Navigating to events page
+[2026-06-28 21:05:04] INFO: First event card is visible
+[2026-06-28 21:05:04] INFO: Event card visible: "Test Event 1782660902649"
+[2026-06-28 21:05:04] INFO: Seat count read: 50 (from "50 seats available")
+[2026-06-28 21:05:04] INFO: Seats before booking: 50
+[2026-06-28 21:05:04] INFO: Clicking Book Now on matched event card
+[2026-06-28 21:05:04] INFO: Ticket count is 1
+[2026-06-28 21:05:04] INFO: Clicking Confirm Booking button
+[2026-06-28 21:05:05] INFO: Booking reference: T-0LCNDL
+[2026-06-28 21:05:05] INFO: Stored booking ref: T-0LCNDL
+[2026-06-28 21:05:05] INFO: Clicking View My Bookings
+[2026-06-28 21:05:05] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:05:05] INFO: First booking card is visible
+[2026-06-28 21:05:05] INFO: Booking card found for ref: T-0LCNDL
+[2026-06-28 21:05:05] INFO: Card contains event title: Test Event 1782660902649
+[2026-06-28 21:05:05] INFO: Navigating to events page
+[2026-06-28 21:05:06] INFO: First event card is visible
+[2026-06-28 21:05:06] INFO: Event card visible: "Test Event 1782660902649"
+[2026-06-28 21:05:06] INFO: Seat count read: 49 (from "49 seats available")
+[2026-06-28 21:05:06] INFO: Seats after booking: 49
+[2026-06-28 21:05:06] INFO: --- Finished scenario: "Create event, book it, and verify seat count reduces by 1" (PASSED) ---
+[2026-06-28 21:05:06] INFO: Browser closed
+[2026-06-28 21:05:06] INFO: === Test Suite Finished ===
+[2026-06-28 21:24:40] INFO: === Test Suite Starting ===
+[2026-06-28 21:24:41] INFO: Browser launched (headless=false)
+[2026-06-28 21:24:41] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:24:42] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:24:42] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:24:42] INFO: Navigating to login page
+[2026-06-28 21:24:44] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:24:44] INFO: Clicking Sign In button
+[2026-06-28 21:24:47] INFO: Login submitted
+[2026-06-28 21:24:47] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:24:47] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:24:47] INFO: Navigating to events page
+[2026-06-28 21:24:48] INFO: First event card is visible
+[2026-06-28 21:24:48] INFO: Event card count verified: 6
+[2026-06-28 21:24:48] INFO: Sandbox banner is visible
+[2026-06-28 21:24:48] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:24:48] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:24:48] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 21:24:49] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 21:24:50] INFO: API login successful, token obtained
+[2026-06-28 21:24:50] INFO: First event ID from API: 3
+[2026-06-28 21:24:50] INFO: Creating booking via API for eventId: 3
+[2026-06-28 21:24:50] INFO: Booking created via API, ID: 71807
+[2026-06-28 21:24:50] INFO: Yahoo booking created, ID: 71807
+[2026-06-28 21:24:50] INFO: Navigating to login page
+[2026-06-28 21:24:53] INFO: Filling email: gmailTester02@gmail.com
+[2026-06-28 21:24:53] INFO: Clicking Sign In button
+[2026-06-28 21:24:56] INFO: Login submitted
+[2026-06-28 21:24:56] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:24:56] INFO: Logged in as gmailTester02@gmail.com
+[2026-06-28 21:24:56] INFO: Navigating to Yahoo booking as Gmail user: /bookings/71807
+[2026-06-28 21:24:58] INFO: Page contains expected text: "Access Denied"
+[2026-06-28 21:24:58] INFO: Page contains expected text: "You are not authorized to view this booking"
+[2026-06-28 21:24:58] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (PASSED) ---
+[2026-06-28 21:24:58] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 21:24:59] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:24:59] INFO: Navigating to login page
+[2026-06-28 21:25:01] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:25:01] INFO: Clicking Sign In button
+[2026-06-28 21:25:06] INFO: Login submitted
+[2026-06-28 21:25:06] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:25:06] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:25:06] INFO: Navigating to events page
+[2026-06-28 21:25:07] INFO: First event card is visible
+[2026-06-28 21:25:07] INFO: Clicking Confirm Booking button
+[2026-06-28 21:25:07] INFO: Clicking View My Bookings
+[2026-06-28 21:25:08] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:25:08] INFO: First booking card is visible
+[2026-06-28 21:25:08] INFO: Clicking View Details (index 0)
+[2026-06-28 21:25:08] INFO: Booking Information section is visible
+[2026-06-28 21:25:08] INFO: Booking ref on detail page: D-G4EM0Z
+[2026-06-28 21:25:08] INFO: Event title on detail page: Dilli Diwali Mela
+[2026-06-28 21:25:08] INFO: Booking ref first char "D" matches event title first char "D"
+[2026-06-28 21:25:08] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:25:08] INFO: Refund spinner is visible
+[2026-06-28 21:25:13] INFO: Refund spinner disappeared
+[2026-06-28 21:25:13] INFO: Refund result is visible
+[2026-06-28 21:25:13] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 21:25:13] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 21:25:13] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 21:25:13] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 21:25:13] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:25:13] INFO: Navigating to login page
+[2026-06-28 21:25:15] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:25:16] INFO: Clicking Sign In button
+[2026-06-28 21:25:18] INFO: Login submitted
+[2026-06-28 21:25:18] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:25:18] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:25:18] INFO: Navigating to events page
+[2026-06-28 21:25:19] INFO: First event card is visible
+[2026-06-28 21:25:19] INFO: Card 0: only 2 seats available, need 3 — skipping
+[2026-06-28 21:25:19] INFO: Card 1: 198 seats available (need 3), clicking Book Now
+[2026-06-28 21:25:20] INFO: Clicked increment, pass 1
+[2026-06-28 21:25:20] INFO: Clicked increment, pass 2
+[2026-06-28 21:25:20] INFO: Increased ticket count by 2
+[2026-06-28 21:25:20] INFO: Clicking Confirm Booking button
+[2026-06-28 21:25:20] INFO: Clicking View My Bookings
+[2026-06-28 21:25:20] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:25:20] INFO: First booking card is visible
+[2026-06-28 21:25:20] INFO: Clicking View Details (index 0)
+[2026-06-28 21:25:21] INFO: Booking Information section is visible
+[2026-06-28 21:25:21] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:25:21] INFO: Refund spinner is visible
+[2026-06-28 21:25:25] INFO: Refund spinner disappeared
+[2026-06-28 21:25:25] INFO: Refund result is visible
+[2026-06-28 21:25:25] INFO: Refund result contains: "Not eligible for refund"
+[2026-06-28 21:25:25] INFO: Refund result contains: "Group bookings (3 tickets) are non-refundable"
+[2026-06-28 21:25:25] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (PASSED) ---
+[2026-06-28 21:25:26] INFO: Browser closed
+[2026-06-28 21:25:26] INFO: === Test Suite Finished ===
+[2026-06-28 21:26:19] INFO: === Test Suite Starting ===
+[2026-06-28 21:26:20] INFO: Browser launched (headless=false)
+[2026-06-28 21:26:20] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:26:21] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:26:21] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:26:21] INFO: Navigating to login page
+[2026-06-28 21:26:23] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:26:23] INFO: Clicking Sign In button
+[2026-06-28 21:26:25] INFO: Login submitted
+[2026-06-28 21:26:26] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:26:26] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:26:26] INFO: Navigating to events page
+[2026-06-28 21:26:27] INFO: First event card is visible
+[2026-06-28 21:26:27] INFO: Event card count verified: 6
+[2026-06-28 21:26:27] INFO: Sandbox banner is visible
+[2026-06-28 21:26:27] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:26:27] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:26:27] INFO: --- Starting scenario: "Gmail user cannot view Yahoo user's booking" ---
+[2026-06-28 21:26:27] INFO: API login for: yahootester01@yahoo.com
+[2026-06-28 21:26:29] INFO: API login successful, token obtained
+[2026-06-28 21:26:29] INFO: First event ID from API: 3
+[2026-06-28 21:26:29] INFO: Creating booking via API for eventId: 3
+[2026-06-28 21:26:29] INFO: Booking created via API, ID: 71810
+[2026-06-28 21:26:29] INFO: Yahoo booking created, ID: 71810
+[2026-06-28 21:26:29] INFO: Navigating to login page
+[2026-06-28 21:26:31] INFO: Filling email: gmailTester02@gmail.com
+[2026-06-28 21:26:31] INFO: Clicking Sign In button
+[2026-06-28 21:26:33] INFO: Login submitted
+[2026-06-28 21:26:33] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:26:33] INFO: Logged in as gmailTester02@gmail.com
+[2026-06-28 21:26:33] INFO: Navigating to Yahoo booking as Gmail user: /bookings/71810
+[2026-06-28 21:26:35] INFO: Page contains expected text: "Access Denied"
+[2026-06-28 21:26:35] INFO: Page contains expected text: "You are not authorized to view this booking"
+[2026-06-28 21:26:35] INFO: --- Finished scenario: "Gmail user cannot view Yahoo user's booking" (PASSED) ---
+[2026-06-28 21:26:35] INFO: --- Starting scenario: "Single ticket booking is eligible for refund" ---
+[2026-06-28 21:26:36] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:26:36] INFO: Navigating to login page
+[2026-06-28 21:26:38] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:26:38] INFO: Clicking Sign In button
+[2026-06-28 21:26:40] INFO: Login submitted
+[2026-06-28 21:26:40] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:26:40] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:26:40] INFO: Navigating to events page
+[2026-06-28 21:26:42] INFO: First event card is visible
+[2026-06-28 21:26:42] INFO: Clicking Confirm Booking button
+[2026-06-28 21:26:42] INFO: Clicking View My Bookings
+[2026-06-28 21:26:42] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:26:43] INFO: First booking card is visible
+[2026-06-28 21:26:43] INFO: Clicking View Details (index 0)
+[2026-06-28 21:26:43] INFO: Booking Information section is visible
+[2026-06-28 21:26:43] INFO: Booking ref on detail page: D-MPYRXC
+[2026-06-28 21:26:43] INFO: Event title on detail page: Dilli Diwali Mela
+[2026-06-28 21:26:43] INFO: Booking ref first char "D" matches event title first char "D"
+[2026-06-28 21:26:43] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:26:43] INFO: Refund spinner is visible
+[2026-06-28 21:26:47] INFO: Refund spinner disappeared
+[2026-06-28 21:26:47] INFO: Refund result is visible
+[2026-06-28 21:26:47] INFO: Refund result contains: "Eligible for refund"
+[2026-06-28 21:26:47] INFO: Refund result contains: "Single-ticket bookings qualify for a full refund"
+[2026-06-28 21:26:47] INFO: --- Finished scenario: "Single ticket booking is eligible for refund" (PASSED) ---
+[2026-06-28 21:26:47] INFO: --- Starting scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" ---
+[2026-06-28 21:26:48] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:26:48] INFO: Navigating to login page
+[2026-06-28 21:26:50] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:26:50] INFO: Clicking Sign In button
+[2026-06-28 21:26:53] INFO: Login submitted
+[2026-06-28 21:26:53] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:26:53] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:26:53] INFO: Navigating to events page
+[2026-06-28 21:26:54] INFO: First event card is visible
+[2026-06-28 21:26:54] INFO: Card 0: only 2 seats available, need 3 — skipping
+[2026-06-28 21:26:54] INFO: Card 1: 198 seats available (need 3), clicking Book Now
+[2026-06-28 21:26:55] INFO: Clicked increment, pass 1
+[2026-06-28 21:26:55] INFO: Clicked increment, pass 2
+[2026-06-28 21:26:55] INFO: Increased ticket count by 2
+[2026-06-28 21:26:55] INFO: Clicking Confirm Booking button
+[2026-06-28 21:26:55] INFO: Clicking View My Bookings
+[2026-06-28 21:26:56] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:26:56] INFO: First booking card is visible
+[2026-06-28 21:26:56] INFO: Clicking View Details (index 0)
+[2026-06-28 21:26:56] INFO: Booking Information section is visible
+[2026-06-28 21:26:56] INFO: Clicking Check Refund Eligibility button
+[2026-06-28 21:26:56] INFO: Refund spinner is visible
+[2026-06-28 21:27:01] INFO: Refund spinner disappeared
+[2026-06-28 21:27:01] INFO: Refund result is visible
+[2026-06-28 21:27:01] INFO: Refund result contains: "Not eligible for refund"
+[2026-06-28 21:27:01] INFO: Refund result contains: "Group bookings (3 tickets) are non-refundable"
+[2026-06-28 21:27:01] INFO: --- Finished scenario: "Group ticket booking (3 tickets) is NOT eligible for refund" (PASSED) ---
+[2026-06-28 21:27:01] INFO: --- Starting scenario: "Create event, book it, and verify seat count reduces by 1" ---
+[2026-06-28 21:27:02] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:27:02] INFO: Navigating to login page
+[2026-06-28 21:27:04] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:27:04] INFO: Clicking Sign In button
+[2026-06-28 21:27:07] INFO: Login submitted
+[2026-06-28 21:27:07] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:27:07] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:27:07] INFO: Navigating to admin events page
+[2026-06-28 21:27:08] INFO: Creating event: Test Event 1782662228437
+[2026-06-28 21:27:08] INFO: Clicking Add Event button to open form
+[2026-06-28 21:27:08] INFO: Filling event title: Test Event 1782662228437
+[2026-06-28 21:27:08] INFO: Setting event date: 2026-07-28T10:00
+[2026-06-28 21:27:09] INFO: Submitting new event form
+[2026-06-28 21:27:10] INFO: Event created toast confirmed
+[2026-06-28 21:27:10] INFO: Event created toast confirmed
+[2026-06-28 21:27:10] INFO: Navigating to events page
+[2026-06-28 21:27:11] INFO: First event card is visible
+[2026-06-28 21:27:11] INFO: Event card visible: "Test Event 1782662228437"
+[2026-06-28 21:27:11] INFO: Seat count read: 50 (from "50 seats available")
+[2026-06-28 21:27:11] INFO: Seats before booking: 50
+[2026-06-28 21:27:11] INFO: Clicking Book Now on matched event card
+[2026-06-28 21:27:11] INFO: Ticket count is 1
+[2026-06-28 21:27:11] INFO: Clicking Confirm Booking button
+[2026-06-28 21:27:12] INFO: Booking reference: T-NFAOCA
+[2026-06-28 21:27:12] INFO: Stored booking ref: T-NFAOCA
+[2026-06-28 21:27:12] INFO: Clicking View My Bookings
+[2026-06-28 21:27:12] INFO: URL confirmed: https://eventhub.rahulshettyacademy.com/bookings
+[2026-06-28 21:27:12] INFO: First booking card is visible
+[2026-06-28 21:27:12] INFO: Booking card found for ref: T-NFAOCA
+[2026-06-28 21:27:12] INFO: Card contains event title: Test Event 1782662228437
+[2026-06-28 21:27:12] INFO: Navigating to events page
+[2026-06-28 21:27:13] INFO: First event card is visible
+[2026-06-28 21:27:13] INFO: Event card visible: "Test Event 1782662228437"
+[2026-06-28 21:27:13] INFO: Seat count read: 49 (from "49 seats available")
+[2026-06-28 21:27:13] INFO: Seats after booking: 49
+[2026-06-28 21:27:13] INFO: --- Finished scenario: "Create event, book it, and verify seat count reduces by 1" (PASSED) ---
+[2026-06-28 21:27:14] INFO: Browser closed
+[2026-06-28 21:27:14] INFO: === Test Suite Finished ===
+[2026-06-28 21:40:30] INFO: === Test Suite Starting ===
+[2026-06-28 21:40:31] INFO: Browser launched (headless=false)
+[2026-06-28 21:40:31] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:40:31] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:40:31] INFO: Step: I am logged in to EventHub
+[2026-06-28 21:40:31] INFO: Navigating to login page
+[2026-06-28 21:40:33] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:40:34] INFO: Clicking Sign In button
+[2026-06-28 21:40:36] INFO: Login submitted
+[2026-06-28 21:40:36] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:40:36] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:40:36] INFO: Navigating to events page
+[2026-06-28 21:40:37] INFO: First event card is visible
+[2026-06-28 21:40:37] INFO: Event card count verified: 6
+[2026-06-28 21:40:37] INFO: Sandbox banner is visible
+[2026-06-28 21:40:37] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:40:37] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:40:38] INFO: Browser closed
+[2026-06-28 21:40:38] INFO: === Test Suite Finished ===
+[2026-06-28 21:45:04] INFO: === Test Suite Starting ===
+[2026-06-28 21:45:05] INFO: Browser launched (headless=false)
+[2026-06-28 21:45:05] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:45:07] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:45:07] INFO: Navigating to login page
+[2026-06-28 21:45:09] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:45:09] INFO: Clicking Sign In button
+[2026-06-28 21:45:12] INFO: Login submitted
+[2026-06-28 21:45:12] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:45:12] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:45:14] INFO: Navigated to /events after login
+[2026-06-28 21:45:14] INFO: First event card is visible
+[2026-06-28 21:45:14] INFO: Event card count verified: 6
+[2026-06-28 21:45:14] INFO: Sandbox banner is visible
+[2026-06-28 21:45:14] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:45:16] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:45:19] INFO: Browser closed
+[2026-06-28 21:45:19] INFO: === Test Suite Finished ===
+[2026-06-28 21:48:01] INFO: === Test Suite Starting ===
+[2026-06-28 21:48:02] INFO: Browser launched (headless=false)
+[2026-06-28 21:48:02] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:48:04] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:48:04] INFO: Navigating to login page
+[2026-06-28 21:48:06] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:48:06] INFO: Clicking Sign In button
+[2026-06-28 21:48:08] INFO: Login submitted
+[2026-06-28 21:48:09] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:48:09] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:48:10] INFO: Navigated to /events after login
+[2026-06-28 21:48:10] INFO: First event card is visible
+[2026-06-28 21:48:10] INFO: Event card count verified: 6
+[2026-06-28 21:48:10] INFO: Sandbox banner is visible
+[2026-06-28 21:48:10] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:48:10] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:48:11] INFO: Browser closed
+[2026-06-28 21:48:11] INFO: === Test Suite Finished ===
+[2026-06-28 21:49:12] INFO: === Test Suite Starting ===
+[2026-06-28 21:49:14] INFO: Browser launched (headless=false)
+[2026-06-28 21:49:14] INFO: --- Starting scenario: "Banner IS visible when API returns 6 events" ---
+[2026-06-28 21:49:15] INFO: Setting up API mock for /api/events → 6 events
+[2026-06-28 21:49:15] INFO: Navigating to login page
+[2026-06-28 21:49:17] INFO: Filling email: perumaltester@gmail.com
+[2026-06-28 21:49:18] INFO: Clicking Sign In button
+[2026-06-28 21:49:20] INFO: Login submitted
+[2026-06-28 21:49:20] INFO: Login success confirmed — Browse Events link visible
+[2026-06-28 21:49:20] INFO: Logged in as perumaltester@gmail.com
+[2026-06-28 21:49:21] INFO: Navigated to /events after login
+[2026-06-28 21:49:22] INFO: First event card is visible
+[2026-06-28 21:49:22] INFO: Event card count verified: 6
+[2026-06-28 21:49:22] INFO: Sandbox banner is visible
+[2026-06-28 21:49:22] INFO: Banner contains expected text: "9 bookings"
+[2026-06-28 21:49:22] INFO: --- Finished scenario: "Banner IS visible when API returns 6 events" (PASSED) ---
+[2026-06-28 21:49:22] INFO: Browser closed
+[2026-06-28 21:49:22] INFO: === Test Suite Finished ===

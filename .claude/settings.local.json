@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(playwright-cli)",
+      "PowerShell(cd \"C:\\\\Users\\\\perjayak\\\\code\\\\Project_playwright\\\\New folder\\\\Project\"; npx cucumber-js --tags @smoke 2>&1 | Select-Object -First 80)"
+    ]
+  }
+}

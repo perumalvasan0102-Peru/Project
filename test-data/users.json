@@ -1,0 +1,17 @@
+{
+  "primaryUser": {
+    "email": "perumaltester@gmail.com",
+    "password": "Tester@123",
+    "name": "Peruma Tester"
+  },
+  "yahooUser": {
+    "email": "yahootester01@yahoo.com",
+    "password": "Tester@123",
+    "name": "Yahoo User"
+  },
+  "gmailUser": {
+    "email": "gmailTester02@gmail.com",
+    "password": "Tester@123",
+    "name": "Gmail User"
+  }
+}

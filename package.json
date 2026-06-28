@@ -1,0 +1,31 @@
+{
+  "name": "eventhub-playwright-bdd-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Playwright + Cucumber BDD automation framework for EventHub",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:regression": "cucumber-js --tags @regression",
+    "test:setup1": "cucumber-js --tags @setup1",
+    "test:setup2": "cucumber-js --tags @setup2",
+    "test:setup3": "cucumber-js --tags @setup3",
+    "test:setup4": "cucumber-js --tags @setup4",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "playwright:test": "playwright test",
+    "playwright:report": "playwright show-report reports/playwright-html",
+    "clean": "rimraf reports screenshots videos traces logs allure-results allure-report"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.44.0",
+    "allure-cucumberjs": "^2.15.1",
+    "allure-js-commons": "^2.15.1",
+    "dotenv": "^16.6.1",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.43.0",
+    "rimraf": "^5.0.10"
+  }
+}

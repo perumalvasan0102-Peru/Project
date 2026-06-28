@@ -1,0 +1,14 @@
+{
+  "newEvent": {
+    "description": "An automated test event created by the framework",
+    "city": "Bangalore",
+    "venue": "Test Venue, Koramangala",
+    "price": 100,
+    "totalSeats": 50
+  },
+  "bookingCustomer": {
+    "name": "Test Automation User",
+    "email": "perumaltester@gmail.com",
+    "phone": "+91 9876543210"
+  }
+}

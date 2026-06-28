@@ -1,0 +1,273 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e5]:
+    - generic [ref=e7]:
+      - link "EventHub" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+        - generic [ref=e12]: EventHub
+      - generic [ref=e13]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Events" [ref=e15] [cursor=pointer]:
+          - /url: /events
+        - link "My Bookings" [ref=e16] [cursor=pointer]:
+          - /url: /bookings
+        - link "API Docs" [ref=e17] [cursor=pointer]:
+          - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+        - button "Admin" [ref=e19] [cursor=pointer]:
+          - text: Admin
+          - img [ref=e20]
+        - generic [ref=e22]:
+          - generic "perumaltester@gmail.com" [ref=e23]
+          - button "Logout" [ref=e24] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e408]:
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - heading "My Bookings" [level=1] [ref=e411]
+          - paragraph [ref=e412]: View and manage all your ticket bookings
+        - generic [ref=e413]:
+          - button "Clear all bookings" [ref=e414] [cursor=pointer]
+          - paragraph [ref=e415]: Do this often for clean test data.
+      - generic [ref=e416]:
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - generic [ref=e419]:
+              - generic [ref=e420]:
+                - generic [ref=e421]: T-F68QO5
+                - generic [ref=e422]: confirmed
+                - generic [ref=e423]: "#71754"
+              - heading "Test Event 1782657127903" [level=3] [ref=e424]
+              - generic [ref=e425]:
+                - generic [ref=e426]: 📅 28 Jul 2026
+                - generic [ref=e427]: 🎫 3 tickets
+                - generic [ref=e428]: 📍 Bangalore
+                - generic [ref=e429]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e430]:
+              - paragraph [ref=e431]: $600
+              - paragraph [ref=e432]: total
+          - generic [ref=e433]:
+            - link "View Details" [ref=e434] [cursor=pointer]:
+              - /url: /bookings/71754
+              - button "View Details" [ref=e435]
+            - button "Cancel Booking" [ref=e436] [cursor=pointer]
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - generic [ref=e441]: T-52VI9U
+                - generic [ref=e442]: confirmed
+                - generic [ref=e443]: "#71753"
+              - heading "Test Event 1782657115727" [level=3] [ref=e444]
+              - generic [ref=e445]:
+                - generic [ref=e446]: 📅 28 Jul 2026
+                - generic [ref=e447]: 🎫 1 ticket
+                - generic [ref=e448]: 📍 Bangalore
+                - generic [ref=e449]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e450]:
+              - paragraph [ref=e451]: $200
+              - paragraph [ref=e452]: total
+          - generic [ref=e453]:
+            - link "View Details" [ref=e454] [cursor=pointer]:
+              - /url: /bookings/71753
+              - button "View Details" [ref=e455]
+            - button "Cancel Booking" [ref=e456] [cursor=pointer]
+        - generic [ref=e457]:
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - generic [ref=e461]: D-PW0YD4
+                - generic [ref=e462]: confirmed
+                - generic [ref=e463]: "#71752"
+              - heading "Dilli Diwali Mela" [level=3] [ref=e464]
+              - generic [ref=e465]:
+                - generic [ref=e466]: 📅 20 Oct 2026
+                - generic [ref=e467]: 🎫 1 ticket
+                - generic [ref=e468]: 📍 Delhi
+                - generic [ref=e469]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e470]:
+              - paragraph [ref=e471]: $300
+              - paragraph [ref=e472]: total
+          - generic [ref=e473]:
+            - link "View Details" [ref=e474] [cursor=pointer]:
+              - /url: /bookings/71752
+              - button "View Details" [ref=e475]
+            - button "Cancel Booking" [ref=e476] [cursor=pointer]
+        - generic [ref=e477]:
+          - generic [ref=e478]:
+            - generic [ref=e479]:
+              - generic [ref=e480]:
+                - generic [ref=e481]: T-H2J9SH
+                - generic [ref=e482]: confirmed
+                - generic [ref=e483]: "#71747"
+              - heading "Test Event 1782656702841" [level=3] [ref=e484]
+              - generic [ref=e485]:
+                - generic [ref=e486]: 📅 28 Jul 2026
+                - generic [ref=e487]: 🎫 1 ticket
+                - generic [ref=e488]: 📍 Bangalore
+                - generic [ref=e489]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e490]:
+              - paragraph [ref=e491]: $100
+              - paragraph [ref=e492]: total
+          - generic [ref=e493]:
+            - link "View Details" [ref=e494] [cursor=pointer]:
+              - /url: /bookings/71747
+              - button "View Details" [ref=e495]
+            - button "Cancel Booking" [ref=e496] [cursor=pointer]
+        - generic [ref=e497]:
+          - generic [ref=e498]:
+            - generic [ref=e499]:
+              - generic [ref=e500]:
+                - generic [ref=e501]: T-VQSDGQ
+                - generic [ref=e502]: confirmed
+                - generic [ref=e503]: "#71746"
+              - heading "Test Event 1782656687668" [level=3] [ref=e504]
+              - generic [ref=e505]:
+                - generic [ref=e506]: 📅 28 Jul 2026
+                - generic [ref=e507]: 🎫 3 tickets
+                - generic [ref=e508]: 📍 Bangalore
+                - generic [ref=e509]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e510]:
+              - paragraph [ref=e511]: $600
+              - paragraph [ref=e512]: total
+          - generic [ref=e513]:
+            - link "View Details" [ref=e514] [cursor=pointer]:
+              - /url: /bookings/71746
+              - button "View Details" [ref=e515]
+            - button "Cancel Booking" [ref=e516] [cursor=pointer]
+        - generic [ref=e517]:
+          - generic [ref=e518]:
+            - generic [ref=e519]:
+              - generic [ref=e520]:
+                - generic [ref=e521]: T-37DFP3
+                - generic [ref=e522]: confirmed
+                - generic [ref=e523]: "#71745"
+              - heading "Test Event 1782656673110" [level=3] [ref=e524]
+              - generic [ref=e525]:
+                - generic [ref=e526]: 📅 28 Jul 2026
+                - generic [ref=e527]: 🎫 1 ticket
+                - generic [ref=e528]: 📍 Bangalore
+                - generic [ref=e529]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e530]:
+              - paragraph [ref=e531]: $200
+              - paragraph [ref=e532]: total
+          - generic [ref=e533]:
+            - link "View Details" [ref=e534] [cursor=pointer]:
+              - /url: /bookings/71745
+              - button "View Details" [ref=e535]
+            - button "Cancel Booking" [ref=e536] [cursor=pointer]
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - generic [ref=e541]: T-4VS3Z5
+                - generic [ref=e542]: confirmed
+                - generic [ref=e543]: "#71707"
+              - heading "Test Event 1782652481681" [level=3] [ref=e544]
+              - generic [ref=e545]:
+                - generic [ref=e546]: 📅 28 Jul 2026
+                - generic [ref=e547]: 🎫 1 ticket
+                - generic [ref=e548]: 📍 Bangalore
+                - generic [ref=e549]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e550]:
+              - paragraph [ref=e551]: $100
+              - paragraph [ref=e552]: total
+          - generic [ref=e553]:
+            - link "View Details" [ref=e554] [cursor=pointer]:
+              - /url: /bookings/71707
+              - button "View Details" [ref=e555]
+            - button "Cancel Booking" [ref=e556] [cursor=pointer]
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - generic [ref=e561]: D-YGV7R6
+                - generic [ref=e562]: confirmed
+                - generic [ref=e563]: "#71679"
+              - heading "Dilli Diwali Mela" [level=3] [ref=e564]
+              - generic [ref=e565]:
+                - generic [ref=e566]: 📅 20 Oct 2026
+                - generic [ref=e567]: 🎫 3 tickets
+                - generic [ref=e568]: 📍 Delhi
+                - generic [ref=e569]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e570]:
+              - paragraph [ref=e571]: $900
+              - paragraph [ref=e572]: total
+          - generic [ref=e573]:
+            - link "View Details" [ref=e574] [cursor=pointer]:
+              - /url: /bookings/71679
+              - button "View Details" [ref=e575]
+            - button "Cancel Booking" [ref=e576] [cursor=pointer]
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - generic [ref=e579]:
+              - generic [ref=e580]:
+                - generic [ref=e581]: D-NVXC57
+                - generic [ref=e582]: confirmed
+                - generic [ref=e583]: "#71678"
+              - heading "Dilli Diwali Mela" [level=3] [ref=e584]
+              - generic [ref=e585]:
+                - generic [ref=e586]: 📅 20 Oct 2026
+                - generic [ref=e587]: 🎫 1 ticket
+                - generic [ref=e588]: 📍 Delhi
+                - generic [ref=e589]: 🗓 Booked 28 Jun 2026
+            - generic [ref=e590]:
+              - paragraph [ref=e591]: $300
+              - paragraph [ref=e592]: total
+          - generic [ref=e593]:
+            - link "View Details" [ref=e594] [cursor=pointer]:
+              - /url: /bookings/71678
+              - button "View Details" [ref=e595]
+            - button "Cancel Booking" [ref=e596] [cursor=pointer]
+  - contentinfo [ref=e263]:
+    - generic [ref=e264]:
+      - generic [ref=e265]:
+        - generic [ref=e266]:
+          - heading "Rahul Shetty Academy" [level=3] [ref=e267]
+          - paragraph [ref=e268]: India's leading QA automation training academy — empowering engineers to build real-world testing skills.
+        - generic [ref=e269]:
+          - heading "Popular Courses" [level=3] [ref=e270]
+          - list [ref=e271]:
+            - listitem [ref=e272]:
+              - link "Selenium WebDriver with Java" [ref=e273] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e274]:
+              - link "Playwright with JavaScript" [ref=e275] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e276]:
+              - link "RestAssured API Testing" [ref=e277] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e278]:
+              - link "Cypress End-to-End Testing" [ref=e279] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+            - listitem [ref=e280]:
+              - link "Appium Mobile Testing" [ref=e281] [cursor=pointer]:
+                - /url: https://rahulshettyacademy.com
+        - generic [ref=e282]:
+          - heading "QA Job Hiring Platform" [level=3] [ref=e283]
+          - paragraph [ref=e284]: Get hired faster — take skill assessments trusted by top QA employers worldwide.
+          - link "techsmarthire.com →" [ref=e285] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+        - generic [ref=e286]:
+          - heading "EventHub Practice App" [level=3] [ref=e287]
+          - list [ref=e288]:
+            - listitem [ref=e289]:
+              - link "Browse Events" [ref=e290] [cursor=pointer]:
+                - /url: /events
+            - listitem [ref=e291]:
+              - link "My Bookings" [ref=e292] [cursor=pointer]:
+                - /url: /bookings
+            - listitem [ref=e293]:
+              - link "Manage Events" [ref=e294] [cursor=pointer]:
+                - /url: /admin/events
+            - listitem [ref=e295]:
+              - link "API Documentation" [ref=e296] [cursor=pointer]:
+                - /url: https://api.eventhub.rahulshettyacademy.com/api/docs
+      - generic [ref=e297]:
+        - paragraph [ref=e298]: © 2026 Rahul Shetty Academy. All rights reserved.
+        - generic [ref=e299]:
+          - link "rahulshettyacademy.com →" [ref=e300] [cursor=pointer]:
+            - /url: https://rahulshettyacademy.com
+          - link "techsmarthire.com →" [ref=e301] [cursor=pointer]:
+            - /url: https://techsmarthire.com
+  - alert [ref=e4]
